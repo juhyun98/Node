@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Get 방식으로 데이터 전송하기</h3>
+    <!-- 
+        Server로 데이터를 전달하기 위해서는 반드시 지켜야할 3가지!
+        1. action : 전달할 서버의 주소를 작성
+        2. name : 전달할 데이터의 이름을 작성
+        3. submit : 데이터를 전달하는 버튼
+    -->
+    <form action="http://localhost:3000">
+        ID : <input type="text" name="id"> <br>
+        PW : <input type="password" name="pw"> <br>
+        <input type="submit" value="로그인">
+    </form>
+</body>
+</html>
