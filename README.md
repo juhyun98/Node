@@ -10,14 +10,16 @@ npm i
 
 <br>
 package.json <br>
-어떤 module이 설치되어야 하는지 적혀 있어서 모듈 명을 따로 적을 필요 없음.<br>
+어떤 module이 설치되어야 하는지 적혀 있어서 모듈 명을 따로 적을 필요 없음.
+
 ```
 npm i nodemon -g
 ```
-<br>
+
 서버를 수동으로 껏다 키지 않아도 자동으로 껏다 켜서 수정 내용을 반영해주는 모듈
+
 ```
 nodemon add.js
 ```
-<br>
+
 rs : restart
